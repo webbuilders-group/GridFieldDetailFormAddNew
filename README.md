@@ -14,7 +14,7 @@ Ryan McLaren (Nickname: IOTI) <ryan (at) webbuildersgroup (dot) com>
  * Download and copy folder to SilverStripe root directory.
  * Run ?flush=all
 	
-Use the addComponent function to add the GridFieldDtailFormAddNew component
+Use the addComponent function to add the GridFieldDetailFormAddNew component
 
     $config = new GridFieldConfig_Base();
 	$config->addComponent(new GridFieldDetailFormAddNew());
