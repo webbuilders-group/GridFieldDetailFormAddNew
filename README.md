@@ -1,5 +1,7 @@
 # GridFieldDetailFormAddNew
 
+Adds the ability to create a new gridField item directly from the edit form.
+
 ## Maintainer Contact
 
 Ryan McLaren (Nickname: IOTI) <ryan (at) webbuildersgroup (dot) com>
