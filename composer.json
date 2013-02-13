@@ -1,0 +1,19 @@
+{
+	"name": "webbuilders-group/silverstripe-gridfielddetailformaddnew",
+	"description": "Adds the ability to create a new gridField item directly from the edit form",
+	"type": "silverstripe-module",
+	"keywords": ["silverstripe", "gridfield"],
+	"authors": [
+		{
+			"name": "Ryan McLaren",
+			"homepage": "http://webbuildersgroup.com",
+			"role": "Developer"
+		}
+	],
+
+	"require":
+	{
+		"silverstripe/framework": "3.*",
+		"composer/installers": "*"
+	}
+}
