@@ -15,10 +15,6 @@ class GridFieldDetailFormAddNew extends GridFieldDetailForm {
  * @subpackge gridField
  */
 class GridFieldDetailFormAddNew_ItemRequest extends GridFieldDetailForm_ItemRequest {
-    private static $allowed_actions=array(
-                                        'ItemEditForm'
-                                    );
-
 	/**		 
 	 * @return {Form} 	 
 	 */
