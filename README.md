@@ -1,6 +1,6 @@
 # GridFieldDetailFormAddNew
 
-Adds the ability to create a new gridField item directly from the edit form.
+Adds the ability to create a new gridField item directly from the edit form. Use the 3.0 branch for compatability with SilverStripe 3.0.
 
 ## Maintainer Contact
 
@@ -8,7 +8,7 @@ Ryan McLaren (Nickname: IOTI) <ryan (at) webbuildersgroup (dot) com>
 
 ## Requirements
 
- * SilverStripe 3.0.3+
+ * SilverStripe 3.1+
 
 
 ## Installation & Documentation
