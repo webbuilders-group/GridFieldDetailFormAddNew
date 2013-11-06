@@ -15,13 +15,18 @@ Ryan McLaren (Nickname: IOTI) <ryan (at) webbuildersgroup (dot) com>
 
  * Download and copy folder to SilverStripe root directory.
  * Run ?flush=all
-	
-Use the addComponent function to add the GridFieldDetailFormAddNew component
+ 
+ By default the "add new" button is added to all detail forms. You can disable this functionality in your config.yml using
+ 
+	 GridFieldAddNewExtension:
+	   use_data_extension: true
+	   
+If you instead prefer to add the button manually to a detail form use the addComponent function to add the GridFieldDetailFormAddNew component.
 
     $config = new GridFieldConfig_Base();
 	$config->addComponent(new GridFieldDetailFormAddNew());
 	
-When working with one of the pre-configured GridFieldConfigs you must first remove the default GridFieldDetailForm component and then add the new GridFieldDetailFormAddNew
+When working with one of the pre-configured GridFieldConfigs you must first remove the default GridFieldDetailForm component and then add the GridFieldDetailFormAddNew component.
 
     $config = new GridFieldConfig_RecordEditor();
     $config->removeComponentsByType('GridFieldDetailForm');

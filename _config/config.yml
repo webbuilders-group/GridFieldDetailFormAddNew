@@ -1,0 +1,5 @@
+GridFieldDetailForm_ItemRequest:
+  extensions:
+    -  GridFieldAddNewExtension
+GridFieldAddNewExtension:
+  use_data_extension: true

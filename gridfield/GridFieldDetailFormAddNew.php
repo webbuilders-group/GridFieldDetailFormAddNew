@@ -3,7 +3,7 @@
 /**
  * @extension to the @see GridFieldDetailForm
  * @package GridFieldDetailFormAddNew
- * @subpackge gridField
+ * @subpackage gridField
  */
 class GridFieldDetailFormAddNew extends GridFieldDetailForm {
 	
@@ -19,7 +19,9 @@ class GridFieldDetailFormAddNew_ItemRequest extends GridFieldDetailForm_ItemRequ
                                         'ItemEditForm'
                                     );
 
-	/**		 
+	/**	
+	 * adds a new button allowing users
+	 * to add a new record directly from the edit screen
 	 * @return {Form} 	 
 	 */
 	public function ItemEditForm() {
