@@ -16,7 +16,7 @@ Ryan McLaren (Nickname: IOTI) <ryan (at) webbuildersgroup (dot) com>
  * Download and copy folder to SilverStripe root directory.
  * Run ?flush=all
  
- By default the "add new" button is added to all detail forms. You can disable this functionality in your config.yml using
+By default the "add new" button is added to all detail forms. You can disable this functionality in your config.yml using
  
 	 GridFieldAddNewExtension:
 	   use_data_extension: true
