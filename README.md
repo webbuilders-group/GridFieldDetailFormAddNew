@@ -19,7 +19,7 @@ Ryan McLaren (Nickname: IOTI) <ryan (at) webbuildersgroup (dot) com>
 By default the "add new" button is added to all detail forms. You can disable this functionality in your config.yml using
  
 	 GridFieldAddNewExtension:
-	   use_data_extension: true
+	   use_data_extension: false
 	   
 If you instead prefer to add the button manually to a detail form use the addComponent function to add the GridFieldDetailFormAddNew component.
 
