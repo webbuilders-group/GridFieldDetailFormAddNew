@@ -20,5 +20,8 @@
 
 	"support": {
 		"issues": "https://github.com/webbuilders-group/GridFieldDefailFormAddNew/issues"
+	},
+	"extra": {
+        	"installer-name": "gridfielddetailformaddnew"
 	}
 }
