@@ -16,7 +16,7 @@ class GridFieldAddNewExtension extends DataExtension {
         //check if this DataExtension should be used
         if(Config::inst()->get('GridFieldAddNewExtension', 'use_data_extension')){
         
-            if($this->owner->record->ID !== 0){
+            if($this->owner->record->ID !== 0 && $this->owner->record->canCreate()){
                 $actionFields=$form->Actions();
             
                 $link = Controller::join_links($this->owner->gridField->Link('item'), 'new');
